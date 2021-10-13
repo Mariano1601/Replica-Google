@@ -139,9 +139,11 @@ button.search-button {
 }
 
 .pie-de-pagina {
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-end;
   background-color: rgb(243, 243, 243);
   margin-top: 60px;
-  height: 90px;
 }
 
 .pie-pag-izq {
