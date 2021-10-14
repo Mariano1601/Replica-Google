@@ -5,6 +5,9 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+}
+
 .navbar {
   display: flex;
   justify-content: flex-end;
@@ -139,11 +142,10 @@ button.search-button {
 }
 
 .pie-de-pagina {
-  display: flex;
-  flex-direction: column;
-  justify-items: flex-end;
   background-color: rgb(243, 243, 243);
-  margin-top: 60px;
+  width: 100%;
+  position: fixed;
+  bottom: 0%;
 }
 
 .pie-pag-izq {
@@ -151,6 +153,7 @@ button.search-button {
   flex-direction: row;
   list-style-type: none;
   padding-left: 20px;
+  padding-bottom: 10px;
   color: rgba(0, 0, 0, 0.6);
 }
 .pie-pag-der {
@@ -158,4 +161,16 @@ button.search-button {
   flex-direction: row;
   list-style-type: none;
   color: rgba(0, 0, 0, 0.6);
+}
+
+#foot {
+  display: flex;
+  height: 100%;
+  background-color: red;
+}
+
+.foot-page {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
